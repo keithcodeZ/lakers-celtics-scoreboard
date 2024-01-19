@@ -1,0 +1,68 @@
+body{
+background: url('/assets/1200x628.png');
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+/* background-position: center; */
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    margin: 0px;
+    
+}
+
+.container{
+    width: 400px;
+    /* height: 500px; */
+    /* margin: auto; */
+    background-color: rgba(0,0,0,.1);
+    backdrop-filter: blur(25px);
+    padding: 20px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.score-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+/* .celtics-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.button-container > button{
+    background: none;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 40px;
+}
